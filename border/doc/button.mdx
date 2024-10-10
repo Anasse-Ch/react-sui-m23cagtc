@@ -1,0 +1,16 @@
+import React from 'react';
+import Button from '@mui/material/Button';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+
+export const MUIButton = () => (
+  <Button
+    startIcon={<FavoriteIcon />}
+    sx={{
+      padding: '8px 16px',
+      color: '#f6f6f6', // Use the `color` property inside `sx` for text color
+    }}
+    variant="contained"
+  >
+    Delete
+  </Button>
+);
